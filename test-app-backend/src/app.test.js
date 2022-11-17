@@ -1,4 +1,4 @@
-const { findServer } = require("../app");
+const { findServer } = require("./app");
 const { data, offlinedata } = require("./utils/data");
 
 describe("Check server is online or offline", () => {
